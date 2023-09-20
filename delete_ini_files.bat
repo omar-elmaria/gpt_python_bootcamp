@@ -1,0 +1,2 @@
+del /s /q /f /a "G:\My Drive\APAC\datahub-airflow\desktop.ini"
+:: Replace this part "G:\My Drive\APAC\datahub-airflow" with the path to your directory. Use forward slashes if you are using Mac or Linux
