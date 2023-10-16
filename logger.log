@@ -1,0 +1,22 @@
+2023-10-16 14:30:09 - DEBUG - This is a debug message
+2023-10-16 14:30:09 - INFO - This is an info message
+2023-10-16 14:30:09 - WARNING - This is a warning message
+2023-10-16 14:30:09 - ERROR - This is an error message
+2023-10-16 14:43:50 - ERROR - This is an exception message
+NoneType: None
+2023-10-16 16:37:10 - DEBUG - Checking None for explicit credentials as part of auth process...
+2023-10-16 16:37:10 - DEBUG - Checking Cloud SDK credentials as part of auth process...
+2023-10-16 16:37:12 - DEBUG - Checking None for explicit credentials as part of auth process...
+2023-10-16 16:37:12 - DEBUG - Checking Cloud SDK credentials as part of auth process...
+2023-10-16 16:37:14 - DEBUG - This service is instrumented using OpenTelemetry. OpenTelemetry or one of its components could not be imported; please add compatible versions of opentelemetry-api and opentelemetry-instrumentation packages in order to get BigQuery Tracing data.
+2023-10-16 16:37:14 - DEBUG - Converted retries value: 3 -> Retry(total=3, connect=None, read=None, redirect=None, status=None)
+2023-10-16 16:37:14 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2023-10-16 16:37:14 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-10-16 16:37:14 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-10-16 16:37:14 - DEBUG - Starting new HTTPS connection (1): bigquery.googleapis.com:443
+2023-10-16 16:37:16 - DEBUG - https://bigquery.googleapis.com:443 "POST /bigquery/v2/projects/logistics-customer-staging/jobs?prettyPrint=false HTTP/1.1" 200 None
+2023-10-16 16:37:16 - DEBUG - https://bigquery.googleapis.com:443 "GET /bigquery/v2/projects/logistics-customer-staging/queries/40c3b979-e107-4d21-bedc-9f0d2a65c0b8?maxResults=0&location=US&prettyPrint=false HTTP/1.1" 200 None
+2023-10-16 16:37:16 - DEBUG - Making request: POST https://oauth2.googleapis.com/token
+2023-10-16 16:37:16 - DEBUG - Starting new HTTPS connection (1): oauth2.googleapis.com:443
+2023-10-16 16:37:17 - DEBUG - https://oauth2.googleapis.com:443 "POST /token HTTP/1.1" 200 None
+2023-10-16 16:37:17 - DEBUG - Started reading table 'logistics-customer-staging._09a1a92d5c3d0cdead4f6d856feece39281e29f4.anon52faa54d_5faf_4546_ba2c_79d234f1d584' with BQ Storage API session 'projects/logistics-customer-staging/locations/us/sessions/CAISDG1fcGdfcHRuRFI0URoCamkaAmpm'.
